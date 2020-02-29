@@ -43,7 +43,7 @@ public class ObjectMaker {
     public static Object[] getArray(final int size) {
         final Object[] array = new Object[size];
 
-        for (int i = 0; i < size - 1; i++) {
+        for (int i = 0; i < size; i++) {
             array[i] = new Double(Math.random() * 100000);
         }
 
@@ -61,7 +61,7 @@ public class ObjectMaker {
     public static Float[] getFloatArray(final int size) {
         final Float[] array = new Float[size];
 
-        cache.add(array);
+        //cache.add(array);
 
         return array;
     }

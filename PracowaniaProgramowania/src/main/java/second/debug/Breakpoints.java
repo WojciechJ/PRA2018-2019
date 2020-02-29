@@ -15,6 +15,6 @@ public class Breakpoints {
 
     private static void printThis(final Object o) {
         System.out.println("I will print you something very soon");
-        System.out.println(o.toString());
+        System.out.println(o);
     }
 }

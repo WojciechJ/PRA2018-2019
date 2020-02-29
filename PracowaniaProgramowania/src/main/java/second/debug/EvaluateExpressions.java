@@ -2,7 +2,12 @@ package second.debug;
 
 import second.debug.hidden.ObjectMaker;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+
+import static java.util.Collections.*;
+import static java.util.Collections.reverse;
 
 /**
  * Exercise 2: Using the Expression Window in the Debug perspective.
@@ -25,6 +30,9 @@ public class EvaluateExpressions {
 
         // Process last object
         processElementAtIndex(myList, 100000 - 1);
+    }
+
+    public EvaluateExpressions() {
     }
 
     private static void processElementAtIndex(final List<Integer> list,
